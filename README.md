@@ -7,7 +7,7 @@
 
 ## If the application is debuggable you can use the run-as command in adb shell
 ```
-./adb -s FA78T1800124 exec-out "run-as com.app.packagename cat databases/VehicleProfile.db" > VehicleProfile.db
+./adb -s $deviceId exec-out "run-as com.app.packagename cat databases/VehicleProfile.db" > VehicleProfile.db
 ```
 ## If the application is not debuggable, you can use Android's backup function
 
