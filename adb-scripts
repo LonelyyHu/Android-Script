@@ -1,0 +1,8 @@
+#build apk
+./gradlew assembleDev
+
+#list devices
+~/Library/Android/sdk/platform-tools/adb devices
+
+# install apk
+~/Library/Android/sdk/platform-tools/adb install -r ionex-user-dev-release.apk
